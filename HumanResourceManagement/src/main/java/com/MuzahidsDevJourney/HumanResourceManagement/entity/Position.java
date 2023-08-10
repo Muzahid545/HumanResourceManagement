@@ -1,0 +1,17 @@
+package com.MuzahidsDevJourney.HumanResourceManagement.entity;
+
+import jakarta.persistence.Embeddable;
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Embeddable
+@Getter
+@Setter
+public class Position {
+	
+
+    private String name;
+    
+  
+}
